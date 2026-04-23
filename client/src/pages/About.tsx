@@ -15,7 +15,7 @@ const About = () => (
         <PageHeader
             eyebrow="About our model"
             title="A childhood worth remembering."
-            intro="Little Larch is a small, intentional early learning community built around the belief that children are capable, curious, and worthy of deep respect."
+            intro="Bumblebee Early Learning Center is a small, intentional early learning community built around the belief that children are capable, curious, and worthy of deep respect."
         />
 
         <Section>
