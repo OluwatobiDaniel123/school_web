@@ -1,7 +1,7 @@
 import {Link, NavLink, Outlet} from "react-router-dom";
 import {useState} from "react";
 import {Menu, X} from "lucide-react";
-
+import logo from "../assets/logo.png";
 const navItems = [
     {to: "/", label: "Home"},
     {to: "/about", label: "About"},
@@ -21,9 +21,8 @@ const Layout = () => {
             <header className="sticky top-0 z-40 backdrop-blur-md bg-background/80 border-b border-border/60">
                 <div className="container-prose flex items-center justify-between h-20">
                     <Link to="/" className="flex items-center gap-2 group">
-                        <span className="w-9 h-9 rounded-full bg-primary text-primary-foreground grid place-items-center font-display font-semibold text-lg">
-                            L
-                        </span>
+                        <img src={logo} alt={logo} className="w-10 h-10 rounded-full" />
+
                         <span className="font-display text-xl font-semibold tracking-tight">Little Larch</span>
                     </Link>
 
@@ -87,9 +86,8 @@ const Layout = () => {
                 <div className="container-prose py-16 grid md:grid-cols-4 gap-10">
                     <div className="md:col-span-2">
                         <div className="flex items-center gap-2 mb-4">
-                            <span className="w-9 h-9 rounded-full bg-primary text-primary-foreground grid place-items-center font-display font-semibold">
-                                L
-                            </span>
+                            <img src={logo} alt={logo} className="w-12 h-12 rounded-full" />
+
                             <span className="font-display text-xl font-semibold">Little Larch</span>
                         </div>
                         <p className="text-sm text-muted-foreground max-w-sm">
@@ -109,13 +107,14 @@ const Layout = () => {
                             ))}
                         </ul>
                     </div>
+
                     <div>
                         <h4 className="text-sm font-semibold mb-4">Visit</h4>
                         <ul className="space-y-2 text-sm text-muted-foreground">
-                            <li>123 Meadow Lane</li>
-                            <li>Anytown, ST 00000</li>
-                            <li>(555) 010-2024</li>
-                            <li>hello@littlelarch.example</li>
+                            <li>919 Eastern Pkwy</li>
+                            <li> Brooklyn NY</li>
+                            <li>(929) 873-5129</li>
+                            <li>harriethomas@yahoo.com</li>
                         </ul>
                     </div>
                 </div>

@@ -24,10 +24,10 @@ const Contact = () => {
                 <div className="grid md:grid-cols-12 gap-12">
                     <div className="md:col-span-5 space-y-8">
                         {[
-                            {icon: MapPin, title: "Address", lines: ["123 Meadow Lane", "Anytown, ST 00000"]},
+                            {icon: MapPin, title: "Address", lines: ["919 Eastern Pkwy", "Brooklyn NY"]},
                             {icon: Clock, title: "Hours", lines: ["Monday – Friday", "7:30 am – 5:30 pm"]},
-                            {icon: Phone, title: "Phone", lines: ["(555) 010-2024"]},
-                            {icon: Mail, title: "Email", lines: ["hello@littlelarch.example"]},
+                            {icon: Phone, title: "Phone", lines: ["(929) 873-5129"]},
+                            {icon: Mail, title: "Email", lines: ["harriethomas@yahoo.com"]},
                         ].map((c) => (
                             <div key={c.title} className="flex gap-4">
                                 <span className="w-11 h-11 shrink-0 rounded-xl bg-secondary text-primary grid place-items-center">

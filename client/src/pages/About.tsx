@@ -23,7 +23,7 @@ const About = () => (
                 <div className="md:col-span-5">
                     <p className="eyebrow mb-4">The model</p>
                     <h2 className="font-display text-3xl md:text-4xl font-semibold leading-tight">
-                        Reggio-inspired. Montessori-rooted. Family-centered.
+                        {/* Head Start, Montessori-rooted. Family-centered. */}Head Start
                     </h2>
                 </div>
                 <div className="md:col-span-7 space-y-5 text-muted-foreground leading-relaxed">
