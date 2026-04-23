@@ -1,7 +1,7 @@
 import {PageHeader, Section} from "@/components/Section";
-import infant from "@/assets/infant.jpg";
-import toddler from "@/assets/toddler.jpg";
-import preschool from "@/assets/preschool.jpg";
+import infant from "@/assets/infant.jpeg";
+import toddler from "@/assets/toddler.jpeg";
+import preschool from "@/assets/preschool.jpeg";
 
 const classrooms = [
     {

@@ -1,9 +1,9 @@
 import {Link} from "react-router-dom";
 import {ArrowRight, Sprout, Heart, Sun} from "lucide-react";
-import hero from "@/assets/hero.jpg";
-import infant from "@/assets/infant.jpg";
-import toddler from "@/assets/toddler.jpg";
-import preschool from "@/assets/preschool.jpg";
+import hero from "@/assets/hero.jpeg";
+import infant from "@/assets/infant.jpeg";
+import toddler from "@/assets/toddler.jpeg";
+import preschool from "@/assets/preschool.jpeg";
 import Testimonials from "@/components/Testimonials";
 
 const programs = [
