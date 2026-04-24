@@ -85,8 +85,8 @@ const Index = () => {
                     </div>
                     <div className="md:col-span-5 md:pb-2">
                         <p className="text-muted-foreground leading-relaxed">
-                            Our approach blends Reggio-inspired inquiry with Montessori-rooted independence. Children
-                            learn through real materials, real relationships, and unhurried time.
+                            Our approach blends Head Start Children learn through real materials, real relationships,
+                            and unhurried time.
                         </p>
                         <Link
                             to="/about"
