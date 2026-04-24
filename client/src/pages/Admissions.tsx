@@ -58,7 +58,7 @@ const Admissions = () => {
         <>
             <PageHeader
                 eyebrow="Admissions & Enrollment"
-                title="Joining the Little Larch family."
+                title="Joining the Bumblebee Early Learning Center."
                 intro="A thoughtful, unhurried process designed to make sure every child and family feels at home before day one."
             />
 
