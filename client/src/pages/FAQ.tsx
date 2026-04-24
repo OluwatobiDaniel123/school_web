@@ -10,7 +10,7 @@ const faqs = [
     },
     {
         q: "What curriculum do you follow?",
-        a: "Our approach blends Reggio Emilia-inspired inquiry with Montessori-rooted independence. Children learn through hands-on exploration, real materials, and meaningful relationships rather than scripted lessons.",
+        a: "Our approach blends Creative. Children learn through hands-on exploration, real materials, and meaningful relationships rather than scripted lessons.",
     },
     {
         q: "What are your operating hours?",
@@ -48,7 +48,7 @@ const FAQ = () => {
             <PageHeader
                 eyebrow="Frequently Asked Questions"
                 title="Answers for curious families."
-                intro="The questions we hear most often from parents considering Little Larch. Don't see yours? We'd love to hear from you."
+                intro="The questions we hear most often from parents considering Bumblebee Early Learning Center. Don't see yours? We'd love to hear from you."
             />
             <Section>
                 <div className="max-w-3xl mx-auto">

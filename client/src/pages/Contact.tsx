@@ -47,7 +47,7 @@ const Contact = () => {
                         <div className="rounded-2xl overflow-hidden border border-border/60 aspect-[4/3]">
                             <iframe
                                 title="Map"
-                                src="https://www.openstreetmap.org/export/embed.html?bbox=-0.13,51.50,-0.10,51.52&layer=mapnik"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3026.1961104668844!2d-73.94032692358816!3d40.66964774020666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25b80209ccb67%3A0x4cf67c62b18550f8!2s919%20Eastern%20Pkwy%2C%20Brooklyn%2C%20NY%2011213%2C%20USA!5e0!3m2!1sen!2sng!4v1777044866981!5m2!1sen!2sng"
                                 className="w-full h-full"
                                 loading="lazy"
                             />

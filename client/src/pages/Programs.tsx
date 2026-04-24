@@ -36,7 +36,7 @@ const classrooms = [
             "Wooden stacking & nesting toys",
             "Climbing structures",
             "Open-ended natural loose parts",
-            "Real ceramic dishes",
+            "Child Friendly",
         ],
     },
     {
@@ -52,12 +52,7 @@ const classrooms = [
             "Garden tending & cooking",
             "Forest school Fridays",
         ],
-        materials: [
-            "Montessori sensorial materials",
-            "Atelier (art studio) supplies",
-            "Story stones & puppets",
-            "Building & engineering kits",
-        ],
+        materials: ["Sensory materials", "Art supplies", "Story stones & puppets", "Building & engineering kits"],
     },
 ];
 

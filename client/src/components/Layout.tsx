@@ -23,7 +23,9 @@ const Layout = () => {
                     <Link to="/" className="flex items-center gap-2 group">
                         <img src={logo} alt={logo} className="w-10 h-10 rounded-full" />
 
-                        <span className="font-display text-xl font-semibold tracking-tight">Little Larch</span>
+                        <span className="font-display text-xl font-semibold tracking-tight">
+                            Bumblebee Early Learning Center
+                        </span>
                     </Link>
 
                     <nav className="hidden md:flex items-center gap-8">
@@ -88,7 +90,7 @@ const Layout = () => {
                         <div className="flex items-center gap-2 mb-4">
                             <img src={logo} alt={logo} className="w-12 h-12 rounded-full" />
 
-                            <span className="font-display text-xl font-semibold">Little Larch</span>
+                            <span className="font-display text-xl font-semibold">Bumblebee Early Learning Center </span>
                         </div>
                         <p className="text-sm text-muted-foreground max-w-sm">
                             A nurturing early learning community where children grow with curiosity, care, and
@@ -120,7 +122,7 @@ const Layout = () => {
                 </div>
                 <div className="border-t border-border/60">
                     <div className="container-prose py-6 text-xs text-muted-foreground flex justify-between">
-                        <span>© {new Date().getFullYear()} Little Larch Early Learning</span>
+                        <span>© {new Date().getFullYear()} Bumblebee Early Learning Center</span>
                         <span>Made with care</span>
                     </div>
                 </div>
